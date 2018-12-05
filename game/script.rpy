@@ -223,5 +223,7 @@ label start:
 
     scene bg akaris house bedroom morning
 
+    " "
+
     # show eileen happy
     return
