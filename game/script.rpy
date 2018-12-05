@@ -28,7 +28,11 @@ transform center:
     yalign 1.0
 
 transform left:
-    xalign 0
+    xalign 0.0
+    yalign 1.0
+
+transform right:
+    xalign 1.0
     yalign 1.0
 
 # The game starts here.
