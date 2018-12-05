@@ -55,13 +55,13 @@ label start:
 
     scene bg mcoffice
 
-    show mcmanager normal
+    # show mcmanager normal
 
     mcf "I'm sorry, we can't accept you right now. Try applying next time."
 
     a "I see. Thanks anyways."
 
-    hide mcmanager normal
+    # hide mcmanager normal
 
     "I left the restaurant manager’s office and decided to go home for the day."
 
@@ -70,6 +70,8 @@ label start:
     scene bg road sunset
 
     a "Man, this sucks..."
+
+    scene bg icafe sunset
 
     "As I head home I spot an internet café, hesitating as to whether I should have a go or not."
 
@@ -83,11 +85,15 @@ label start:
 
     " "
 
-    scene bg road night
+    scene bg icafe night
 
     "I left the internet café feeling confident after a couple hours of playing."
 
     a "Heh. Looks like I've still got it."
+
+    "I walked my way from the internet café and back to my typical route home."
+
+    scene bg road night
 
     "Honestly, I would be spending more time in there if I'd gotten a freaking job. Ughhhh."
 
@@ -203,7 +209,7 @@ label start:
 
     "I made my way home to finally get some rest."
 
-    scene bg akaris house bedroom
+    scene bg akaris house bedroom night
 
     a "*sigh*"
 
@@ -214,6 +220,8 @@ label start:
     "Maybe my luck will be better tomorrow..."
 
     "After I thought about that, I immediately fell asleep."
+
+    scene bg akaris house bedroom morning
 
     # show eileen happy
     return
