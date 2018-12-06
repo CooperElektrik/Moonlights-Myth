@@ -37,7 +37,7 @@ transform right:
 
 # The game starts here.
 
-label start:+
+label start:
 
     scene bg black
 
@@ -79,6 +79,8 @@ label start:+
 
     a "Hm... it may not be a bad idea to play a game or two."
 
+    "I wonder what kind of updates they made in RiFT."
+
     a "Let's see if I still got it. Fufu…"
 
     scene bg black
@@ -87,7 +89,13 @@ label start:+
 
     scene bg icafe night
 
-    "I left the internet café feeling confident after a couple hours of playing."
+    "I left the internet café feeling confident after a couple hours of playing. not to mention a couple of wins."
+
+    "I used to win all the time, but I’ve gotten rustier overtime since the last time I played."
+
+    "I totally blame it on the new updates. Hmph."
+
+    "But overall, I think my win-lose ratio is still god-tier, nevertheless~"
 
     a "Heh. Looks like I've still got it."
 
@@ -250,6 +258,8 @@ label start:+
     q "And I'm pretty sure you did share your identity with some of the higher-ups for legal reasons. Which is why I know you."
 
     a "E-eh? Alright, a-anyways... come in. I'm assuming you wanna talk about something?"
+
+
 
 
 
