@@ -37,7 +37,7 @@ transform right:
 
 # The game starts here.
 
-label start:
+label start:+
 
     scene bg black
 
@@ -223,11 +223,35 @@ label start:
 
     scene bg akaris house bedroom morning
 
-    " "
+    "*ding-dong*"
 
-    " "
+    "I wake up to the sound of a doorbell ringing. What time is it?"
 
-    " "
+    "8 AM?! Who the hell gets up this early??"
+
+    "I walk down the steps to get the door. Hmm... who could it be? I wasn't expecting anyone to be up nor be here this early. Very suspicious."
+
+    "Opening the door, I find a guy rather sharply dressed but somewhat laidback too. You know, the type you'd find to be a young millionaire or something."
+
+    a "Who are you?"
+
+    q "Well, hello Akira. How are you today?"
+
+    "Wait what?!"
+
+    a "...h-how do you know that name?!"
+
+    q "Who wouldn't know the number 1 RiFT player in all of Japan? The Legendary Akira!"
+
+    a "Hold on there, I'm not this Akira lady you speak of..."
+
+    q "Well, I'm pretty sure Akira is Akari Tsuki. And I'm pretty sure you came along to a bunch of our events back when we were sponsoring some RiFT events."
+
+    q "And I'm pretty sure you did share your identity with some of the higher-ups for legal reasons. Which is why I know you."
+
+    a "E-eh? Alright, a-anyways... come in. I'm assuming you wanna talk about something?"
+
+
 
     # show eileen happy
     return
