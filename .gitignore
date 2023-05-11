@@ -1,0 +1,12 @@
+log.txt
+errors.txt
+traceback.txt
+game/tl/None/common.rpymc
+game/cache/screens.rpyb
+game/cache/py3analysis.rpyb
+game/cache/bytecode.rpyb
+game/script.rpyc
+game/screens.rpyc
+game/options.rpyc
+game/gui.rpyc
+.vscode
