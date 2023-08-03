@@ -4,3 +4,6 @@ Script can be found in /game/script.rpy
 Developed using Ren'Py.
 
 Originally created by a game dev group inside 12-Java as a school project. It was stuck in development and production hell and did not reach the deadline in an acceptable state. This project is archived for potential revamp or development in the future.
+
+# This fork
+An unofficial continuation of Moonlight's Myth.
